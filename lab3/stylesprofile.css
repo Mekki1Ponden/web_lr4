@@ -1,0 +1,160 @@
+header {
+    background-color: #333; /* Темная шапка */
+    border-radius: 10px; /* Закругление краев */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.userprofile{
+    display: flex;
+    margin: 0;
+    }
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.cancel {
+    background-color: #dc3545;
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+Стили для фотографии профиля */
+.profile-photo {
+    margin: 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    max-width: 150px; /* Размер фотографии */
+}
+
+/* Стили для блока информации о пользователе */
+.user-info {
+    margin-left: 20px; /* Отступ от фотографии */
+}
+
+/* Стили для блока кнопок */
+.buttons {
+    margin-top: 20px; /* Отступ между блоками */
+    display: flex; /* Размещение кнопок в строку */
+    justify-content: space-between; /* Равномерное распределение кнопок по ширине */
+    align-items: center; /* Выравнивание кнопок по вертикали */
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Дополнительные стили для кнопок */
+.delete-photo-btn {
+    background-color: #f44336;
+}
+
+/* Стили для списка купленных товаров */
+.purchases-list {
+    margin-top: 30px;
+}
+
+.purchases-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.purchases-list th, .purchases-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.purchases-list th {
+    background-color: #f2f2f2;
+}
+
+.purchases-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+

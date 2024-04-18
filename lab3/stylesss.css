@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Приятный серый цвет фона */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-box {
+  background-color: #fff;
+  border-radius: 10px; /* Закругление краёв */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+  padding: 20px;
+  width: 300px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.return-button {
+  display: inline-block;
+  background-color: #007bff; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 10px 20px; /* Внутренние отступы */
+  text-decoration: none; /* Убираем подчеркивание */
+  border: none; /* Убираем границу */
+  border-radius: 5px; /* Скругляем углы */
+  cursor: pointer; /* Изменяем вид курсора при наведении */
+  transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+.return-button:hover {
+  background-color: #0056b3; /* Цвет фона при наведении */
+}
